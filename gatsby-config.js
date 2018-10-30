@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Joiners Travel & Tours Philippines',
-        short_name: 'Joiners PH',
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
