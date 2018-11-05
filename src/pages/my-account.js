@@ -6,10 +6,10 @@ import Footer from "../components/organisms/global/footer";
 class MyAccount extends Component {
   render() {
     return (
-      <Fragment className="transition-item">
+      <Fragment>
         <main className="container">
           <div className="heading">
-            <h1 className="heading-title">Booking</h1>
+            <h1 className="heading-title">My Account</h1>
           </div>
           <NavLink className="btn btn-primary" to="/login">
             Login

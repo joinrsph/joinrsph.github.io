@@ -40,20 +40,6 @@ class CreateAccount extends Component {
             </div>
 
             <div className="form-group">
-              <label className=" " for="business-name">
-                Business Name
-              </label>
-
-              <input
-                className="form-control  "
-                id="business-name"
-                name="business-name"
-                type="text"
-                placeholder="Business Name Inc."
-              />
-            </div>
-
-            <div className="form-group">
               <label className=" " for="email-address">
                 Email Address
               </label>
@@ -63,7 +49,22 @@ class CreateAccount extends Component {
                 id="email-address"
                 name="email-address"
                 type="email"
-                placeholder="your-name@company.com"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <div className="form-group">
+              <label className=" " for="mobile-number">
+                Mobile Number
+              </label>
+
+              <input
+                className="form-control  "
+                id="mobile-number"
+                name="mobile-number"
+                type="tel"
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+                placeholder="09XX XXX XXXX"
               />
             </div>
 

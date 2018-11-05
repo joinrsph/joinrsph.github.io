@@ -5,10 +5,11 @@ import Explore from "./pages/explore";
 import Destinations from "./pages/destinations";
 import Booking from "./pages/booking";
 import MyAccount from "./pages/my-account";
+import Search from "./pages/search";
 import Login from "./pages/login";
+import CreateAccount from "./pages/create-account";
 
 import ErrorPage from "./pages/error-page";
-import CreateAccount from "./pages/create-account";
 
 // import Footer from "./components/organisms/global/footer";
 
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/destinations" component={Destinations} />
             <Route path="/booking" component={Booking} />
             <Route path="/my-account" component={MyAccount} />
+            <Route path="/search" component={Search} />
             <Route path="/login" component={Login} />
             <Route path="/create-account" component={CreateAccount} />
             <Route component={ErrorPage} />

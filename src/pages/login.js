@@ -10,7 +10,7 @@ class Login extends Component {
           <form className="login-form">
             <div className="heading">
               <h1 className="heading-title h3">Sign In</h1>
-              <p className="heading-subtitle">with your PhollowUp account</p>
+              <p className="heading-subtitle">with your Joiners account</p>
             </div>
             <p className="text-muted">
               Enter your <b>Email or Username</b> and <b>Password</b>
