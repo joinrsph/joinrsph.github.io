@@ -2,19 +2,18 @@ import React, { Component, Fragment } from "react";
 
 import Footer from "../components/organisms/global/footer";
 
-class Booking extends Component {
+class BookingPage extends Component {
   render() {
     return (
       <Fragment>
-        <main className="container">
-          <div className="heading">
-            <h1 className="heading-title">Booking</h1>
-          </div>
-        </main>
+        <nav className="navbar navbar-light navbar-expand fixed-top">
+          Booking
+        </nav>
+        <main className="container" />
         <Footer />
       </Fragment>
     );
   }
 }
 
-export default Booking;
+export default BookingPage;

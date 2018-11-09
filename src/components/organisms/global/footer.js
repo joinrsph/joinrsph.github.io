@@ -7,7 +7,7 @@ class Footer extends Component {
       <footer className="footer fixed-bottom">
         <ul className="nav nav-pills nav-justified">
           <li className="nav-item">
-            <NavLink className="nav-link" to="/explore">
+            <NavLink className="nav-link" to="/">
               <i className="nav-icon far fa-compass" />
               <span className="nav-text">Explore</span>
             </NavLink>

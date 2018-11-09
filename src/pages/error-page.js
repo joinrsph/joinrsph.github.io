@@ -6,11 +6,10 @@ class ErrorPage extends Component {
   render() {
     return (
       <Fragment>
-        <main className="container">
-          <div className="heading">
-            <h1 className="heading-title">Error Pape</h1>
-          </div>
-        </main>
+        <nav className="navbar navbar-light navbar-expand fixed-top">
+          Error Page
+        </nav>
+        <main className="container" />
       </Fragment>
     );
   }

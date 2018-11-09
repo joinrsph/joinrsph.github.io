@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { NavLink } from "react-router-dom";
 
-class CreateAccount extends Component {
+class CreateAccountPage extends Component {
   render() {
     return (
       <Fragment>
@@ -14,7 +14,7 @@ class CreateAccount extends Component {
               </p>
             </div>
             <div className="form-group form-name-group">
-              <label className=" " for="">
+              <label className=" " htmlFor="">
                 Full Name
               </label>
               <div className="form-row">
@@ -40,7 +40,7 @@ class CreateAccount extends Component {
             </div>
 
             <div className="form-group">
-              <label className=" " for="email-address">
+              <label className=" " htmlFor="email-address">
                 Email Address
               </label>
 
@@ -54,7 +54,7 @@ class CreateAccount extends Component {
             </div>
 
             <div className="form-group">
-              <label className=" " for="mobile-number">
+              <label className=" " htmlFor="mobile-number">
                 Mobile Number
               </label>
 
@@ -69,7 +69,7 @@ class CreateAccount extends Component {
             </div>
 
             <div className="form-group">
-              <label className=" " for="password">
+              <label className=" " htmlFor="password">
                 Choose a Password
               </label>
 
@@ -102,4 +102,4 @@ class CreateAccount extends Component {
   }
 }
 
-export default CreateAccount;
+export default CreateAccountPage;

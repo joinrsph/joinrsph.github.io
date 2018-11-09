@@ -1,13 +1,16 @@
 import React, { Component, Fragment } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Explore from "./pages/explore";
-import Destinations from "./pages/destinations";
-import Booking from "./pages/booking";
-import MyAccount from "./pages/my-account";
-import Search from "./pages/search";
-import Login from "./pages/login";
-import CreateAccount from "./pages/create-account";
+import HomePage from "./pages/home";
+// import ExplorePage from "./pages/explore";
+import DestinationsPage from "./pages/destinations";
+import DetailsPage from "./pages/details";
+import BookingPage from "./pages/booking";
+import MyAccountPage from "./pages/my-account";
+import SearchPage from "./pages/search";
+import CartPage from "./pages/cart";
+import LoginPage from "./pages/login";
+import CreateAccountPage from "./pages/create-account";
 
 import ErrorPage from "./pages/error-page";
 
@@ -19,14 +22,15 @@ class App extends Component {
       <BrowserRouter>
         <Fragment>
           <Switch>
-            <Route path="/" component={Explore} exact />
-            <Route path="/explore" component={Explore} />
-            <Route path="/destinations" component={Destinations} />
-            <Route path="/booking" component={Booking} />
-            <Route path="/my-account" component={MyAccount} />
-            <Route path="/search" component={Search} />
-            <Route path="/login" component={Login} />
-            <Route path="/create-account" component={CreateAccount} />
+            <Route path="/" component={HomePage} exact />
+            <Route path="/details" component={DetailsPage} />
+            <Route path="/destinations" component={DestinationsPage} />
+            <Route path="/booking" component={BookingPage} />
+            <Route path="/my-account" component={MyAccountPage} />
+            <Route path="/search" component={SearchPage} />
+            <Route path="/cart" component={CartPage} />
+            <Route path="/login" component={LoginPage} />
+            <Route path="/create-account" component={CreateAccountPage} />
             <Route component={ErrorPage} />
           </Switch>
         </Fragment>

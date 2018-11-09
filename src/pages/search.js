@@ -1,10 +1,15 @@
 import React, { Component, Fragment } from "react";
 import { NavLink } from "react-router-dom";
 
-class Search extends Component {
+class SearchPage extends Component {
   render() {
     return (
       <Fragment>
+        <nav className="navbar navbar-light navbar-expand fixed-top">
+          <NavLink className="close" to="">
+            &times;
+          </NavLink>
+        </nav>
         <div className="container">
           <div className="form-group">
             <input
@@ -128,4 +133,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default SearchPage;

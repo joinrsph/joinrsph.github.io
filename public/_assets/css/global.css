@@ -1,15 +1,46 @@
-.navbar-brand {
-  font-family: museo, serif;
+body {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  /* background-color: #fafafa; */
+  padding-bottom: calc(env(safe-area-inset-bottom) + 58px);
 }
 
-body {
-  /* padding-top: 72px; */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  /* background-color: #ffffff; */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-brand {
+  font-family: museo, serif;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-flex;
+}
+
+.navbar-text {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-nav .nav-link {
+  width: 40px;
+  text-align: center;
 }
 
 .jumbotron {
   background: url(/_assets/img/OS5DEC0.jpg) center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 6rem;
+  margin-top: -4rem;
 }
 
 .card-scrollable {
@@ -52,7 +83,7 @@ body {
 }
 
 #style-1 .card {
-  flex-basis: calc(100% - 30px);
+  flex-basis: calc(320px - 30px);
 }
 
 #style-2 .card {
@@ -119,28 +150,26 @@ a.card {
   padding: 0;
 }
 
-body {
-  -webkit-user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  /* padding-bottom: 60px; */
-  background-color: #f1f2f3;
-}
-
-.navbar {
-  /* background-color: #114660; */
-}
-
 .footer {
-  background-color: #fafafa;
+  background-color: #ffffff;
+  /* border-top: 1px solid #d9d9d9; */
   padding-bottom: env(safe-area-inset-bottom);
   -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0.5rem 0 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .footer .nav-pills .nav-link {
   border-radius: 0;
   color: #555555;
 }
+
+.footer .nav-link {
+  font-size: 12px;
+  line-height: 1;
+  padding: 12px;
+  padding-top: 8px;
+}
+
 .footer .nav-pills .nav-link.active {
   background-color: transparent;
   color: #007bff;
@@ -152,7 +181,7 @@ body {
 }
 
 .footer .nav-icon {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   width: 24px;
   text-align: center;

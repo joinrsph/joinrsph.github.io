@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 
 import Footer from "../components/organisms/global/footer";
 
-class MyAccount extends Component {
+class MyAccountPage extends Component {
   render() {
     return (
       <Fragment>
+        <nav className="navbar navbar-light navbar-expand fixed-top">
+          My Account
+        </nav>
         <main className="container">
-          <div className="heading">
-            <h1 className="heading-title">My Account</h1>
-          </div>
           <NavLink className="btn btn-primary" to="/login">
             Login
           </NavLink>
@@ -24,4 +24,4 @@ class MyAccount extends Component {
   }
 }
 
-export default MyAccount;
+export default MyAccountPage;

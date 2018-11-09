@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 
 import { NavLink } from "react-router-dom";
 
-class Login extends Component {
+class LoginPage extends Component {
   render() {
     return (
       <Fragment>
@@ -64,4 +64,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default LoginPage;
