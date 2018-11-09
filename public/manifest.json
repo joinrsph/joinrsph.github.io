@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
-  "start_url": "https://www.joiners.xyz/app/explore.html",
+  "start_url": "https://www.joiners.xyz/",
   "icons": [
     {
       "src": "_assets/img/icons/windows10/Square71x71Logo.scale-400.png",
