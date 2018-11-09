@@ -16,8 +16,8 @@ class DetailsPage extends Component {
         <div className="jumbotron mb-0" />
         <div className="card mb-3">
           <div className="card-body">
-            <h1 className="card-title h3">
-              Hong Kong Disneyland Park Ticket (QR Code Direct Entry)
+            <h1 className="card-title h4">
+              Full-Day Panoramic Tagaytay Ridge Tour
             </h1>
             <hr className="dashed" />
             <ul>
@@ -34,6 +34,45 @@ class DetailsPage extends Component {
             </ul>
           </div>
         </div>
+
+        <ul className="nav nav-tabs nav-tabs-responsive">
+          <li className="nav-item">
+            <NavLink className="nav-link active" data-toggle="tabs" to="">
+              Reviews
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" data-toggle="tabs" to="">
+              Package Options
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" data-toggle="tabs" to="">
+              What to Expect
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" data-toggle="tabs" to="">
+              Activity Information
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" data-toggle="tabs" to="">
+              How to Use
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" data-toggle="tabs" to="">
+              Cancelation Policiy
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" data-toggle="tabs" to="">
+              FAQs
+            </NavLink>
+          </li>
+        </ul>
+
         <div className="card mb-3">
           <div className="card-body">
             <h1 className="card-title h5">Reviews</h1>

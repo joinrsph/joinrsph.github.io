@@ -42,7 +42,7 @@ class LoginPage extends Component {
                 className="form-check-input"
                 id="rembember-me"
               />
-              <label className="form-check-label" for="rembember-me">
+              <label className="form-check-label" htmlFor="rembember-me">
                 Rembember me
               </label>
             </div>

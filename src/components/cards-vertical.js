@@ -11,10 +11,10 @@ class CardsVertical extends Component {
             src={this.props.CardImgSrc}
             alt={this.props.CardImgAltText}
           />
-          <div className="">
+          <div className="card-bg-top">
             <i className="fas fa-map-marker-alt" /> {this.props.CardLocation}
           </div>
-          <div>
+          <div className="card-bg-bottom">
             <span className="badge badge-primary">54% OFF</span>
           </div>
         </div>
