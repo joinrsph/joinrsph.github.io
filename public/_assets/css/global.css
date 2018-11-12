@@ -2,9 +2,9 @@ body {
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-  padding-top: 64px;
+  padding-top: 109px;
   padding-bottom: 64px;
-  /* background-color: #fafafa; */
+  background-color: #f1f2f3;
   padding-bottom: calc(env(safe-area-inset-bottom) + 58px);
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  /* background-color: #ffffff; */
+  /* background-color: #fafafa; */
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .card {
-  /* border: 0; */
+  border: 0;
   border-radius: 4px;
   font-size: 14px;
 }
@@ -258,4 +258,91 @@ a.card {
 }
 .nav-tabs-responsive .nav-link {
   white-space: nowrap;
+}
+
+.card-responsive .card {
+  display: flex;
+  flex-direction: unset;
+  align-items: flex-start;
+}
+
+.card-responsive .card-img {
+  max-width: 128px;
+}
+
+@media (min-width: 576px) {
+  .card-responsive .card-img {
+    max-width: 100%;
+  }
+}
+.card-responsive .card-body {
+  flex: 1;
+}
+
+@media (min-width: 576px) {
+  .card-responsive .card {
+    display: inline-block;
+  }
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* line-height: 16px; */
+  /* max-height: 32px; */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+#detail-header {
+  margin-top: -64px;
+}
+/* 
+.header-overlay {
+  transition: all 0.35s ease-in;
+  background-color: transparent;
+}
+
+.header-overlay.active {
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+} */
+
+.form-icon {
+  position: relative;
+  width: 100%;
+}
+
+.form-icon .form-control {
+  padding-left: 40px;
+}
+
+.form-control-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.filterbar {
+  /* background-color: #f8f9fa; */
+  padding: 0.5rem 1rem;
+}
+
+header {
+  background-color: transparent;
+}
+
+header.active {
+  background-color: #fafafa;
+}
+
+header .form-control {
+  border: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }

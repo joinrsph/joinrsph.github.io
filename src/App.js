@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/home";
 // import ExplorePage from "./pages/explore";
 import DestinationsPage from "./pages/destinations";
+import DestinationDetailsPage from "./pages/destination-details";
 import DetailsPage from "./pages/details";
 import BookingPage from "./pages/booking";
 import MyAccountPage from "./pages/my-account";
@@ -25,6 +26,10 @@ class App extends Component {
             <Route path="/" component={HomePage} exact />
             <Route path="/details" component={DetailsPage} />
             <Route path="/destinations" component={DestinationsPage} />
+            <Route
+              path="/destination-details"
+              component={DestinationDetailsPage}
+            />
             <Route path="/booking" component={BookingPage} />
             <Route path="/my-account" component={MyAccountPage} />
             <Route path="/search" component={SearchPage} />

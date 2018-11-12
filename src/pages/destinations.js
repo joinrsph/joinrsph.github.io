@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 
 import Footer from "../components/organisms/global/footer";
 
+import CardsImage from "../components/cards-image";
+
 class DestinationsPage extends Component {
   render() {
     return (
@@ -22,7 +24,33 @@ class DestinationsPage extends Component {
             </NavLink>
           </li>
         </ul>
-        <main className="container" />
+        <div className="card-columns">
+          <CardsImage
+            CardUrl="/destination-details"
+            CardImgSrc="https://dummyimage.com/800x16:9/f1f2f3/fafafa"
+            CardTitle="Ilocos"
+          />
+          <CardsImage
+            CardUrl="/destination-details"
+            CardImgSrc="https://dummyimage.com/800x16:9/f1f2f3/fafafa"
+            CardTitle="Ilocos"
+          />
+          <CardsImage
+            CardUrl="/destination-details"
+            CardImgSrc="https://dummyimage.com/800x16:9/f1f2f3/fafafa"
+            CardTitle="Ilocos"
+          />
+          <CardsImage
+            CardUrl="/destination-details"
+            CardImgSrc="https://dummyimage.com/800x16:9/f1f2f3/fafafa"
+            CardTitle="Ilocos"
+          />
+          <CardsImage
+            CardUrl="/destination-details"
+            CardImgSrc="https://dummyimage.com/800x16:9/f1f2f3/fafafa"
+            CardTitle="Ilocos"
+          />
+        </div>
         <Footer />
       </Fragment>
     );
