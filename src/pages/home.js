@@ -69,7 +69,7 @@ class HomePage extends Component {
             />
             <div className="spacer" />
           </div>
-          <div className="heading">
+          <div className="heading d-flex align-items-baseline justify-content-between">
             <h1 className="heading-title h3">Popular</h1>
             <NavLink to="/destinations">See More</NavLink>
           </div>

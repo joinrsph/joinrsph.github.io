@@ -12,6 +12,7 @@ import SearchPage from "./pages/search";
 import CartPage from "./pages/cart";
 import LoginPage from "./pages/login";
 import CreateAccountPage from "./pages/create-account";
+import MyAccountPageDetails from "./pages/my-account-details";
 
 import ErrorPage from "./pages/error-page";
 
@@ -36,6 +37,10 @@ class App extends Component {
             <Route path="/cart" component={CartPage} />
             <Route path="/login" component={LoginPage} />
             <Route path="/create-account" component={CreateAccountPage} />
+            <Route
+              path="/my-account-details"
+              component={MyAccountPageDetails}
+            />
             <Route component={ErrorPage} />
           </Switch>
         </Fragment>

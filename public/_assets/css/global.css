@@ -225,9 +225,6 @@ a.card {
 .heading {
   padding-top: 40px;
   padding-bottom: 16px;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
 }
 
 .heading-title {
@@ -345,4 +342,21 @@ header.active {
 header .form-control {
   border: 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-pills {
+  border-radius: 9999px;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.list-group-item:first-child {
+  border-top: 0;
 }

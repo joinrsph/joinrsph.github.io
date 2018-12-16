@@ -49,7 +49,7 @@ class LoginPage extends Component {
             <div className="button-group">
               <NavLink
                 className="btn btn-primary btn-lg btn-block btn-pills"
-                to=""
+                to="/my-account-details"
               >
                 Login
               </NavLink>

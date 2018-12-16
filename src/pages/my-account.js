@@ -7,14 +7,14 @@ class MyAccountPage extends Component {
   render() {
     return (
       <Fragment>
-        <nav className="navbar navbar-light navbar-expand fixed-top">
-          My Account
-        </nav>
         <main className="container">
-          <NavLink className="btn btn-primary" to="/login">
+          <NavLink className="btn btn-primary btn-pills btn-block" to="/login">
             Login
           </NavLink>
-          <NavLink className="btn btn-primary" to="/create-account">
+          <NavLink
+            className="btn btn-light btn-pills btn-block"
+            to="/create-account"
+          >
             Create Account
           </NavLink>
         </main>
