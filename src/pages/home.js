@@ -86,12 +86,12 @@ class HomePage extends Component {
             />
             <CardsImage
               CardUrl="/destination-details"
-              CardImgSrc="http://www.primeholidays.travel/wp-content/uploads/2017/05/Bohol-Chocolate-Hills-600x800.jpg"
+              CardImgSrc="https://www.primeholidays.travel/wp-content/uploads/2017/05/Bohol-Chocolate-Hills-600x800.jpg"
               CardTitle="Bohol"
             />
             <CardsImage
               CardUrl="/destination-details"
-              CardImgSrc="http://www.gotophilippines.com/public/img/home/boracay-home.jpg"
+              CardImgSrc="https://www.gotophilippines.com/public/img/home/boracay-home.jpg"
               CardTitle="Boracay"
             />
             <CardsImage
