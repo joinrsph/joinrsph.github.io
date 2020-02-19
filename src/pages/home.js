@@ -67,6 +67,46 @@ class HomePage extends Component {
               CardUrl="/details"
               CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
             />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
+            <CardsVertical
+              CardUrl="/details"
+              CardImgSrc="https://dummyimage.com/800x800/dddddd/fafafa"
+            />
             <div className="spacer" />
           </div>
           <div className="heading d-flex align-items-baseline justify-content-between">

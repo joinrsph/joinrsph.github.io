@@ -10,7 +10,7 @@
     "react-router-dom": "^4.3.1",
     "react-router-page-transition": "^3.1.0",
     "react-script": "^2.0.5",
-    "react-scripts": "2.1.1"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
